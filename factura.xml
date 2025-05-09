@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="factura.xml">
+    <numero>12345678</numero>
+    <fecha>2025-03-01</fecha>
+    <cliente>Pedro Perez</cliente>
+    <partidas>
+        <partida>
+            <producto>patatas</producto>
+            <precio>2</precio>
+            <cantidad>10</cantidad>
+            <precioTotal>20</precioTotal>
+        </partida>
+        <partida>
+            <producto>pepinos</producto>
+            <precio>3</precio>
+            <cantidad>15</cantidad>
+            <precioTotal>45</precioTotal>
+        </partida>
+        <partida>
+            <producto>platanos</producto>
+            <precio>5</precio>
+            <cantidad>20</cantidad>
+            <precioTotal>100</precioTotal>
+        </partida>
+
+    </partidas>
+
+
+
+</factura>

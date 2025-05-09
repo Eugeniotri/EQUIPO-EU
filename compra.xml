@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compra>
+    <productos>
+        <producto>
+            <nombre>Colacao</nombre>
+            <precio>25</precio>
+            <cantidad>3</cantidad>
+        </producto>
+        <producto>
+            <nombre>fairy</nombre>
+            <precio>18</precio>
+            <cantidad>1</cantidad>
+        </producto>
+
+    </productos>
+
+
+</compra>

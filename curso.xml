@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curso>
+    <nombre>1DAW</nombre>
+    <profesor>Alfredo</profesor>
+    <estudiantes>
+        <estudiante>
+            <nombre>Pablo</nombre>
+            <identificador>42</identificador>
+        </estudiante>
+        <estudiante>
+            <nombre>Nuria</nombre>
+            <identificador>28</identificador>
+        </estudiante>
+    </estudiantes>
+</curso>

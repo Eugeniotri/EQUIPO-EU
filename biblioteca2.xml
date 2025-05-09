@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<biblioteca2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="biblioteca2.xsd">
+    <genero>
+        <tipo>Aventuras</tipo>
+        <libro>
+            <titulo>El Conde de MOntecristo</titulo>
+            <autor>Alejandro Dumas</autor>
+            <fecha-publicación>2017-11-04</fecha-publicación>
+            <editorial>Santillana</editorial>
+        </libro>
+        <libro>
+            <titulo>20000 leguas de viaje submarino</titulo>
+            <autor>Pablo Casas</autor>
+            <fecha-publicación>2010-11-04</fecha-publicación>
+            <editorial>Anaya</editorial>
+        </libro>
+        <libro>
+            <titulo>Viaje al centro de la tierra</titulo>
+            <autor>Pedr Cortesas</autor>
+            <fecha-publicación>2011-11-04</fecha-publicación>
+            <editorial>Planeta</editorial>
+        </libro>
+        <tipo>Western</tipo>
+        <libro>
+            <titulo>El gaupo el feo y el malo</titulo>
+            <autor>Maria Plumas</autor>
+            <fecha-publicación>2017-11-04</fecha-publicación>
+            <editorial>Anaya</editorial>
+        </libro>
+    </genero>
+</biblioteca2>

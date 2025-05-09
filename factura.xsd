@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="factura">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="numero" type="xs:unsignedInt" />
+        <xs:element name="fecha" type="xs:date" />
+        <xs:element name="cliente" type="xs:string" />
+        <xs:element name="partidas">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="partida">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="producto" type="xs:string" />
+                    <xs:element name="precio" type="xs:unsignedByte" />
+                    <xs:element name="cantidad" type="xs:unsignedByte" />
+                    <xs:element name="precioTotal" type="xs:unsignedByte" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

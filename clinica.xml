@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clínica xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="clinica.xsd">
+    <pacientes>
+        <paciente>
+            <nombre>Pablo Iglesias</nombre>
+            <fechaNacimiento>1968-01-01</fechaNacimiento>
+            <historiaClínica>
+                <alergia>trabajo</alergia>
+                <alergia>madrugar</alergia>
+                <alergia>esfuerzo</alergia>
+            </historiaClínica>
+        </paciente>
+        <paciente>
+            <nombre>Irene Montero</nombre>
+            <fechaNacimiento>1988-01-01</fechaNacimiento>
+            <historiaClínica>
+                <alergia>hombres</alergia>
+                <alergia>machirulos</alergia>
+                <alergia>esfuerzo</alergia>
+            </historiaClínica>
+        </paciente>
+
+    </pacientes>
+
+</clínica>
